@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D415C37-77DC-40BD-9E3F-FD06EBBC7A23}</ProjectGuid>
+    <ProjectGuid>{F18658F8-E132-479F-AD01-E7B343D6C63D}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>XmJoseTest</RootNamespace>
-    <AssemblyName>XmJoseTest</AssemblyName>
+    <RootNamespace>XmJoseUnit</RootNamespace>
+    <AssemblyName>XmJoseUnit</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,16 +29,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Xamarin.UITest">
-      <HintPath>..\packages\Xamarin.UITest.1.3.4\lib\Xamarin.UITest.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.3.2.0\lib\net45\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests.cs" />
-    <Compile Include="AppInitializer.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
