@@ -6,7 +6,7 @@ using System.Linq;
 using Org.BouncyCastle.Math;
 
 
-namespace XmJose.Jose
+namespace XmJose.Json
 {
 	public static class Base64Extensions
 	{

@@ -36,17 +36,17 @@
     <Compile Include="Jws.cs" />
     <Compile Include="Jwe.cs" />
     <Compile Include="Jwt.cs" />
-    <Compile Include="Jose\BaseObject.cs" />
-    <Compile Include="Jose\Base64Extensions.cs" />
-    <Compile Include="Jose\StreamExtensions.cs" />
-    <Compile Include="Jose\Deflate.cs" />
-    <Compile Include="Jose\CollectionsExtensions.cs" />
+    <Compile Include="Json\BaseObject.cs" />
+    <Compile Include="Json\Base64Extensions.cs" />
+    <Compile Include="Json\StreamExtensions.cs" />
+    <Compile Include="Json\Deflate.cs" />
+    <Compile Include="Json\CollectionsExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <ItemGroup>
     <Folder Include="Jwa\" />
-    <Folder Include="Jose\" />
+    <Folder Include="Json\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="crypto">

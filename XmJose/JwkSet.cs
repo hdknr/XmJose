@@ -2,7 +2,7 @@
 
 namespace XmJose
 {
-	public class JwkSet : Jose.BaseObject
+	public class JwkSet : Json.BaseObject
 	{
 		public JwkSet ()
 		{

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.IO.Compression;	// with Microsoft Compression Nuget Libary
 
-namespace XmJose.Jose
+namespace XmJose.Json
 {
 	public class Deflate
 	{

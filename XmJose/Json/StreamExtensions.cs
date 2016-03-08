@@ -3,7 +3,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace XmJose.Jose
+namespace XmJose.Json
 {
 	public static class StreamExtensions
 	{

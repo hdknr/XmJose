@@ -5,7 +5,7 @@ using System;
 
 namespace XmJose
 {
-	public class Jwt : Jose.BaseObject
+	public class Jwt : Json.BaseObject
 	{
 		public Jwt ()
 		{

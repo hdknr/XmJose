@@ -6,7 +6,7 @@ using System;
 
 namespace XmJose
 {
-	public class Jwe : Jose.BaseObject
+	public class Jwe : Json.BaseObject
 	{
 		public Jwe ()
 		{

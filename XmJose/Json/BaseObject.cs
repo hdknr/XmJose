@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json.Linq;
 
-namespace XmJose.Jose
+namespace XmJose.Json
 {
 	public class BaseObject
 	{
