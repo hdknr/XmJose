@@ -32,12 +32,28 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="crypto">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1\lib\net45\crypto.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
+    <Compile Include="Json\BaseObjectTest.cs" />
+    <Compile Include="Json\Base64Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Json\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XmJose\XmJose.csproj">
+      <Project>{E863257D-8EAB-40B4-AB83-A92814BC30BD}</Project>
+      <Name>XmJose</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
